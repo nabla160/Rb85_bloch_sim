@@ -1,0 +1,63 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*doppler*.ipynb
+*standalone*.ipynb
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Qt / GUI generated files
+*.ui~
+*.qrc~
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Local documents not meant for sharing
+*.tex
+*.pdf
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local scratch data / generated numerical outputs
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+*.dat
+*.pkl
